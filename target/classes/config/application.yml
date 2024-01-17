@@ -1,0 +1,50 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# LR Easy Label Print © 2024 by l Simonnet is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International
+#
+# LR Easy Label Print use a deployed service to print labels.
+# See http://localhost:8087/getting_started.html or http://auborddesmauves.fr/products/lrplugins for documentation.
+# ----------------------------------------------------------------------------------------------------------------------
+
+server:
+    port: 8087
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false
+  application:
+    name: LR Easy Label Print
+    version: 1.0.2
+  jackson:
+    serialization:
+      indent-output: true
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+
+camunda:
+  bpm:
+    client:
+      date-format: yyyy-MM-dd'T'HH:mm:ss.SSS #'Z' #temp fix for mismatch date format. Probable impact on com.orange.otootb.workflow.worker.camunda.task completion timing
+      lock-duration: 10000 # defines how many milliseconds the External Tasks are locked until they can be fetched again
+      use-priority: true
+      async-response-timeout: 30000
+      disable-backoff-strategy: true
+
+
+
+# ===================================================================
+# Application specific properties
+# Add your own application properties here, see the ApplicationProperties class
+# to have type-safe configuration
+# ===================================================================
+
+worker:
+  id: basic-worker
+  topic: basic-worker
+  retry:
+    nbMax: 1
+    timeoutInMs: 1000

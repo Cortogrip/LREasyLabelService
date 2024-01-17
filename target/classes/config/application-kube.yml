@@ -1,0 +1,10 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# LR Easy Label Print © 2024 by l Simonnet is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International
+#
+# LR Easy Label Print use a deployed service to print labels.
+# See http://localhost:8087/getting_started.html or http://auborddesmauves.fr/products/lrplugins for documentation.
+# ----------------------------------------------------------------------------------------------------------------------
+proxy: ${PROXY}
+
+
+

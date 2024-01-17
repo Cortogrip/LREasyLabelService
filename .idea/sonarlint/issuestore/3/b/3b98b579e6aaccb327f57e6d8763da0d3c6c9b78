@@ -1,0 +1,19 @@
+
+@
+java:S5411J"*Use the primitive boolean expression here.(ÀúÄ
+G
+java:S14814",Remove this unused "timeout" local variable.(óíêÒùÿÿÿÿ
+I
+java:S14817".Remove this unused "topicName" local variable.(«óŞÏùÿÿÿÿ
+H
+java:S1135>"2Complete the task associated to this TODO comment.(œÇßÃ
+Q
+java:S6437G"6Revoke and change this password, as it is compromised.(˜é†‡şÿÿÿÿ
+A
+java:S1481M"+Remove this unused "client" local variable.(ğÑîö
+V	java:S125P"<This block of commented-out lines of code should be removed.(œ‹Ò°ûÿÿÿÿ
+H
+java:S1481e"-Remove this unused "duration" local variable.(Ô“Ëâøÿÿÿÿ
+Q	java:S125r"<This block of commented-out lines of code should be removed.(Ÿî
+G
+java:S1144"+Remove this unused private "encode" method.(øÖõÙùÿÿÿÿ

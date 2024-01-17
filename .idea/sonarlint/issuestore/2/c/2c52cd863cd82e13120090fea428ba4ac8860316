@@ -1,0 +1,8 @@
+
+d
+java:S1104%"OMake EXT a static final constant or non-public and provide accessors if needed.(¶‰Ô
+>
+java:S1444%")Make this "public static EXT" field final(¶‰Ô
+c
+java:S3008%"NRename this field "EXT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶‰Ô
+h	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÑ°ûüÿÿÿÿ

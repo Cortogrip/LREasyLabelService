@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# LR Easy Label Print © 2024 by l Simonnet is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International
+#
+# LR Easy Label Print use a deployed service to print labels.
+# See http://localhost:8087/getting_started.html or http://auborddesmauves.fr/products/lrplugins for documentation.
+# ----------------------------------------------------------------------------------------------------------------------
+service:
+  useProxy: false
+  proxyHost: http://proxy-ein.lab.opentransit.net
+  proxyPort: 3128
+  url: http://localhost:8087/engine-rest/engine
+
+camunda:
+  bpm:
+    client:
+      #base-url: http://develop.dev.odp.lab.opentransit.net/som/engine-rest/engine/SEEN_SOM/ # the URL pointing to the Camunda Platform Runtime REST API
+      #base-url: http://localhost:9000/engine-rest/engine/SEEN_SOM/ # the URL pointing to the Camunda Platform Runtime REST API
+      base-url:  http://localhost:8081/engine-rest/
+      worker-id: lr-easy-label-print-worker
+
+som-business-worker:
+  client-credentials:
+    camunda:
+      username: admin #business-worker
+      password: admin #ENC(1qHP/uDGEi5Xo6r33Hz+1MeNkPaH5ZewxlHj4QeuOjxYs6XOl7Fs/tL9CzhdhdN8)
+
+
+outputDir: ../generated/
+

@@ -1,0 +1,20 @@
+
+O
+java:S1854;"9Remove this useless assignment to local variable "start".(’Ã¼
+X
+java:S1854:"=Remove this useless assignment to local variable "topicName".(«óÞÏùÿÿÿÿ
+V
+java:S18546";Remove this useless assignment to local variable "timeout".(óíêÒùÿÿÿÿ
+E
+java:S14814"*Remove this unused "dummy" local variable.(í¿†Ÿøÿÿÿÿ
+G
+java:S14816",Remove this unused "timeout" local variable.(óíêÒùÿÿÿÿ
+I
+java:S1481:".Remove this unused "topicName" local variable.(«óÞÏùÿÿÿÿ
+@
+java:S1481;"*Remove this unused "start" local variable.(’Ã¼
+V	java:S125>"<This block of commented-out lines of code should be removed.(ÐÙŠÓýÿÿÿÿ
+D
+java:S1144E"/Remove this unused private "getRetries" method.(ÿù
+H
+java:S1144P"2Remove this unused private "getStackTrace" method.(ú¢Û®

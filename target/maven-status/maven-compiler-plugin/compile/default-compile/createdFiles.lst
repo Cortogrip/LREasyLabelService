@@ -1,0 +1,13 @@
+com\abdm\imageshop\label\label\LabelPage.class
+com\abdm\imageshop\label\MessageHandler.class
+com\abdm\imageshop\label\RaiseErrorTaskHandler.class
+com\abdm\imageshop\label\LREasyLabelPrintApplication.class
+com\abdm\imageshop\label\LREasyLabelPrintHandler.class
+com\abdm\imageshop\label\MessageHandler$1.class
+com\abdm\imageshop\label\label\LabelController.class
+com\abdm\imageshop\label\RaiseIncidentTaskHandler.class
+com\abdm\imageshop\label\configuration\Retry.class
+com\abdm\imageshop\label\configuration\WorkerConfiguration.class
+com\abdm\imageshop\label\label\Label.class
+com\abdm\imageshop\label\label\LabelService.class
+com\abdm\imageshop\label\AbstractTaskHandler.class
